@@ -16,7 +16,6 @@ function defaultAmount(idName, zeroAmount) {
     const featureCost = parseFloat(featureInput);
     total = featureCost * zeroAmount;
     feature.innerText = total;
-    return feature;
 }
 
 //---Clicking on the first memory button which sets the cost 0
@@ -70,6 +69,8 @@ document.getElementById('apply').addEventListener('click', function () {
     };
     promoCode.value = ''
 });
+
+
 
 
 
